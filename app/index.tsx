@@ -1,4 +1,5 @@
-import { Text, View } from "react-native";
+import { View } from "react-native"
+import { Text } from "~/components/ui/text"
 
 export default function Index() {
   return (
@@ -8,9 +9,8 @@ export default function Index() {
         justifyContent: "center",
         alignItems: "center",
       }}
-      className="bg-black"
     >
       <Text>Edit app/index.tsx to edit this screen.</Text>
     </View>
-  );
+  )
 }
